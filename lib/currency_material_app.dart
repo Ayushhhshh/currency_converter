@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class CurrencyMaterialPage extends StatelessWidget{
   const CurrencyMaterialPage({super.key});
+  
 
   @override
   Widget build(BuildContext context) {
@@ -21,8 +22,9 @@ class CurrencyMaterialPage extends StatelessWidget{
                 prefixIconColor: Colors.black,
                 filled: true,
                 fillColor: Colors.white,
-                focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(50)))
-                ), 
+                focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
+                enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
+                ),
                 
                 cursorColor: Colors.white,
               )],
