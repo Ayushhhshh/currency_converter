@@ -29,7 +29,7 @@ class CurrencyMaterialPage extends StatelessWidget{
                   ),
                   keyboardType: TextInputType.numberWithOptions(decimal: true),
                   
-                  cursorColor: Colors.white,
+                  cursorColor: Colors.black,
                   ),
                 ),
                 ],
