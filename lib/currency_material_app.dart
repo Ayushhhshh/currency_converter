@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, duplicate_ignore
+
 import 'package:flutter/material.dart';
 
 class CurrencyMaterialPage extends StatelessWidget{
@@ -6,16 +8,18 @@ class CurrencyMaterialPage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       backgroundColor: Colors.blueGrey,
         body:  Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center ,
+              // ignore: duplicate_ignore
               children: [ 
                 Text("Currency Converter",style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,fontStyle: FontStyle.italic,color: Colors.white70
                 )
                 ),
                 SizedBox(height: 8),
+                // ignore: prefer_const_constructors
                 Padding(
                   padding: EdgeInsets.all(8.0),
                   child: TextField( style : TextStyle(color: Colors.black),
@@ -31,7 +35,10 @@ class CurrencyMaterialPage extends StatelessWidget{
                   keyboardType: TextInputType.numberWithOptions(decimal: true),
                   cursorColor: Colors.black,
                   ),
-                )],
+                ),
+                TextButton(onPressed: () {
+                  print('Ayush');
+                }, child: Text("Click Me"))]
             ),
           ),
         );
