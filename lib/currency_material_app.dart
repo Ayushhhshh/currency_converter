@@ -25,6 +25,7 @@ class CurrencyMaterialPage extends StatelessWidget{
                 focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
                 enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
                 ),
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
                 
                 cursorColor: Colors.white,
               )],
