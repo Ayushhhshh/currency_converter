@@ -15,6 +15,7 @@ class CurrencyMaterialPage extends StatelessWidget{
                 Text("Currency Converter",style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,fontStyle: FontStyle.italic,color: Colors.white70
                 )
                 ),
+                SizedBox(height: 8),
                 Padding(
                   padding: EdgeInsets.all(8.0),
                   child: TextField( style : TextStyle(color: Colors.black),
@@ -28,11 +29,9 @@ class CurrencyMaterialPage extends StatelessWidget{
                   enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.all(Radius.circular(5))),
                   ),
                   keyboardType: TextInputType.numberWithOptions(decimal: true),
-                  
-                  cursorColor: Colors.red,
+                  cursorColor: Colors.black,
                   ),
-                ),
-                ],
+                )],
             ),
           ),
         );
