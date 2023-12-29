@@ -34,6 +34,7 @@ class CurrencyMaterialPage extends StatelessWidget{
                   cursorColor: Colors.black,
                   ),
                 ),
+                SizedBox(height: 8,),
                 TextButton(onPressed: () {
                   print('Trying to convert');
                 },
