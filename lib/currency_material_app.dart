@@ -1,11 +1,9 @@
 // ignore_for_file: prefer_const_constructors, duplicate_ignore
-
 import 'package:flutter/material.dart';
 
 class CurrencyMaterialPage extends StatelessWidget{
   const CurrencyMaterialPage({super.key});
-  
-
+    
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,6 +37,11 @@ class CurrencyMaterialPage extends StatelessWidget{
                 TextButton(onPressed: () {
                   print('Ayush');
                 },
+                style: ButtonStyle(
+                  backgroundColor: MaterialStatePropertyAll(Colors.black),
+                  foregroundColor: MaterialStatePropertyAll(Colors.white),
+                  fixedSize: MaterialStateProperty.all(Size(200, 50)),
+                ), 
                 child: Text("Convert"))]
             ),
           ),
