@@ -35,7 +35,7 @@ class CurrencyMaterialPage extends StatelessWidget{
                   ),
                 ),
                 TextButton(onPressed: () {
-                  print('Ayush');
+                  print('Trying to convert');
                 },
                 style: ButtonStyle(
                   backgroundColor: MaterialStatePropertyAll(Colors.black),
