@@ -13,7 +13,7 @@ class CurrencyMaterialPage extends StatelessWidget{
               mainAxisAlignment: MainAxisAlignment.center ,
               // ignore: duplicate_ignore
               children: [ 
-                Text("Made with❤️",style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,fontStyle: FontStyle.italic,color: Colors.white70
+                Text("Currency Converter",style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,fontStyle: FontStyle.italic,color: Colors.white70
                 )
                 ),
                 SizedBox(height: 8),
