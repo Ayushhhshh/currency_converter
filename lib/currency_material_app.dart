@@ -47,7 +47,7 @@ class CurrencyMaterialPage extends StatelessWidget{
             ),
           ),
           bottomNavigationBar: BottomAppBar(
-        color: Colors.blueGrey[300],
+        color: Colors.blueGrey[400],
         child: SizedBox(
           height: 30.0,
           child: Center(
