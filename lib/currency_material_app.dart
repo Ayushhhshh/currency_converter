@@ -45,7 +45,21 @@ class CurrencyMaterialPage extends StatelessWidget{
                 ), 
                 child: Text("Convert"))]
             ),
+          ),bottomNavigationBar: BottomAppBar(
+        color: Colors.blueGrey[300],
+        child: SizedBox(
+          height: 20.0,
+          child: Center(
+            child: Text(
+              'Made with ❤️',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 15.0,
+              ),
+            ),
           ),
+        ),
+      ),
         );
   }
 }
