@@ -43,8 +43,9 @@ class CurrencyMaterialPage extends StatelessWidget{
                   backgroundColor: MaterialStatePropertyAll(Colors.black),
                   foregroundColor: MaterialStatePropertyAll(Colors.white),
                   fixedSize: MaterialStateProperty.all(Size(200, 50)),
-                ), 
-                child: Text("Convert"))]
+                ),
+                child: Text("Convert")),
+                ]
             ),
           ),
           bottomNavigationBar: BottomAppBar(
