@@ -35,10 +35,11 @@ class CurrencyMaterialPage extends StatelessWidget{
                   ),
                 ),
                 SizedBox(height: 8,),
-                TextButton(onPressed: () {
+                ElevatedButton (onPressed: () {
                   print('Trying to convert');
                 },
                 style: ButtonStyle(
+                  elevation: MaterialStatePropertyAll(7),
                   backgroundColor: MaterialStatePropertyAll(Colors.black),
                   foregroundColor: MaterialStatePropertyAll(Colors.white),
                   fixedSize: MaterialStateProperty.all(Size(200, 50)),
