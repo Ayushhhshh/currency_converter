@@ -56,7 +56,7 @@ class CurrencyMaterialPage extends StatelessWidget{
             child: Text(
               'Made with ❤️',
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 fontSize: 14.0,
               ),
             ),
