@@ -66,4 +66,3 @@ class CurrencyMaterialPage extends StatelessWidget{
     );
   }
 }
-
