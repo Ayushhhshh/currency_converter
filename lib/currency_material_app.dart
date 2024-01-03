@@ -7,7 +7,7 @@ class CurrencyMaterialPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.blueGrey,title: Text("Currency converter"),toolbarHeight: 20,actions: [Icon(Icons.menu)],),
+      appBar: AppBar(backgroundColor: Colors.blueGrey,title: Text("Currency converter"),toolbarHeight: 20,),
       backgroundColor: Colors.blueGrey,
         body:  Center(
             child: Column(
