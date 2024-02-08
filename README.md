@@ -32,3 +32,7 @@ git clone https://github.com/Ayushhhshh/currency_converter.git
 After cloning the repository simply run this command in the terminal to run Currency Converter App
 ```bash
 flutter run
+```
+## Download
+- You can download the apk hosted in the releases section of this repository.
+## Hope you liked my project Glad to see you here ☺️
