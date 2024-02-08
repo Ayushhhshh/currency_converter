@@ -11,7 +11,7 @@ This Flutter app allows you to convert amounts from USD to INR. It provides a si
 
 ## Screenshots
 
-![dark](https://github.com/Ayushhhshh/currency_converter/assets/120326710/747a8bad-74ef-4ca0-9574-ce92fa38acd5 =250x) ![light](https://github.com/Ayushhhshh/currency_converter/assets/120326710/34d6f581-86e5-4aa5-b699-8ed0e224df72 =250x)
+![dark](https://github.com/Ayushhhshh/currency_converter/assets/120326710/747a8bad-74ef-4ca0-9574-ce92fa38acd5) ![light](https://github.com/Ayushhhshh/currency_converter/assets/120326710/34d6f581-86e5-4aa5-b699-8ed0e224df72)
 
 ## Installation
 
