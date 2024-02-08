@@ -1,17 +1,21 @@
-# currency_converter
+# Currency Converter App
 
-A new Flutter project.
+This Flutter app allows you to convert amounts from USD to INR. It provides a simple interface where you can enter the amount in USD and get the converted value in INR.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Convert USD to INR
+- Dark mode support
+- Animated result display
+- Simple and intuitive user interface
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Add your screenshots here]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# currency_converter
+## Installation
+
+To run this app locally, make sure you have Flutter installed. Then, clone this repository and run the following command:
+
+```bash
+flutter run
